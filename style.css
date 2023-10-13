@@ -1,0 +1,67 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: 5px solid goldenrod;
+    width: 500px;
+    height: 670px;
+    margin-top: 10px;
+    background-color: rgb(31, 30, 30);
+}
+
+#allButtons {
+    border: 2px solid greenyellow;
+    margin: 15px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#display {
+    text-align: end;
+    background-color: rgb(58, 56, 56);
+    color: rgb(219, 226, 233);
+    height: 50px;
+    margin: 15px;
+    padding: 10px 15px 15px;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+#num-container {
+    border: 2px solid rebeccapurple;
+    align-self: stretch;
+    flex-basis: 345px;
+}
+
+#op-container {
+    border: 2px solid rebeccapurple;
+    align-self: stretch;
+    flex-basis: 40px;
+}
+
+.delete {
+    width: 345px;
+    height: 82px;
+    align-self: flex-end;
+}
+
+.zero {
+    width: 345px;
+}
+
+.equals {
+    height: 82px;
+
+}
+
+button {
+    width: 112px;
+    height: 116px;
+    font-size: 3rem;
+    font-weight: 500;
+}
