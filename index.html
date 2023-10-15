@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+always show command palette
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +13,7 @@
 <body>
 
     <div class="container">
-        <p id="display">2+2</p>
+        <p id="display"></p>
         <div id="allButtons">
             <div id="num-container">
                 <button class="delete" onclick="resetAll()">C</button>
@@ -29,7 +30,7 @@
             </div>
             <div id="op-container">
                 <button class="operators" onclick="determineOperator('/')">÷</button>
-                <button class="operators" onclick="determineOperator('*')">×</button>
+                <button class="operators" onclick="determineOperator('x')">×</button>
                 <button class="operators" onclick="determineOperator('-')">−</button>
                 <button class="operators" onclick="determineOperator('+')">+</button>
                 <button class="equals" onclick="equalsTo()">=</button>
